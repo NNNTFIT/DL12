@@ -303,6 +303,7 @@ body{
     position: absolute;
     bottom: 0;
 }
+
 .slide1-container2{
     width: 100%;
     max-width: 1439px;
@@ -340,9 +341,16 @@ body{
     font-size: 24px;
     color: #FFFFFF;
 }
+.slide1-container2-background{
+    width: 100%;
+    max-width: 1299px;
+    background-color: #c4c4c40d;
+    padding-top: 10px;
+    border-radius: 20px 20px 0 0;
+}
 .slide1-container2-container{
     width: 100%;
-    background-color: #C4C4C40D;
+    background-color: #c4c4c41a;
     border-radius: 20px 20px 0 0;
     padding: 56px 39.97px 46px 39.97px;
     box-sizing: border-box;
@@ -390,8 +398,7 @@ body{
 .slide1-container2-container-button{
     width: 100%;
     max-width: 142px;
-    height: 100%;
-    max-height: 69px;
+    height: 69px;
     background-color: rgba(23, 194, 236, 1);
     border-radius: 20px;
     border: 0;
@@ -438,32 +445,29 @@ body{
     background: url(assets/slide2-icon-1.svg);
     background-size: cover;
     background-position: center;
-    max-width: 288.66668701171875px;
     width: 100%;
+    max-width: 288.66668701171875px;
     height: 66.3933334350586px;
 }
 .slide2-container-img-2{
     background: url(assets/slide2-icon-2.svg);
     background-size: cover;
-    background-position: center;
-    max-width: 288.66668701171875px;
     width: 100%;
+    max-width: 288.66668701171875px;
     height: 117.98015594482422px;
 }
 .slide2-container-img-3{
     background: url(assets/slide2-icon-3.svg);
     background-size: cover;
-    background-position: center;
-    max-width: 288.66668701171875px;
     width: 100%;
+    max-width: 288.66668701171875px;
     height: 81.82350158691406px;
 }
 .slide2-container-img-4{
     background: url(assets/slide2-icon-4.svg);
     background-size: cover;
-    background-position: center;
-    max-width: 288.66668701171875px;
     width: 100%;
+    max-width: 288.66668701171875px;
     height: 57.89875793457031px;
 }
 .slide3{
