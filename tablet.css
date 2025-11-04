@@ -294,12 +294,18 @@
         align-items: center;
     }
     .slide7-background{
+        position: absolute;
         max-width: 300.86009216308594px;
         flex-direction: column;
         height: 849px;
         gap: 0;
         background-size: cover;
         top: 93px;
+        display: block;
+        opacity: 20%;
+    }
+    .slide7-background-desktop{
+        display: none;
     }
     .slide7-background-img{
         width: 100%;

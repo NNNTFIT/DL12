@@ -1100,7 +1100,7 @@ display: none;
 }
 .slide7{
     width: 100%;
-    padding: 57px 61px 35.44px 74px;
+    padding: 57px 61px 106px 74px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -1110,7 +1110,7 @@ display: none;
     background: linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)),url(assets/slide7-background.jpg);
     background-size: cover;
 }
-.slide7-background{
+.slide7-background-desktop{
     position: absolute;
     width: 100%;
     max-width: 1184px;
@@ -1118,7 +1118,16 @@ display: none;
     opacity: 20%;
     display: flex;
     gap: 149px;
-    z-index: 0;
+    z-index: 3;
+}
+.slide7-background{
+    display: none;
+}
+.slide7-background-img1{
+    width: 100%;
+    max-width: 294px;
+    height: 100%;
+    max-height: 478.55718994140625px;
 }
 .slide7-background-img{
     width: 100%;
